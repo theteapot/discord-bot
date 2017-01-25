@@ -44,6 +44,7 @@
     "clapp": "^1.1.1",
     "discord.js": "^11.0.0",
     "express": "^4.14.0",
+    "https": "^1.0.0",
     "spotify-web-api-node": "^2.3.6"
   }
 }
