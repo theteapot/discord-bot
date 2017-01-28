@@ -7,7 +7,7 @@ module.exports = {
   // The bot's command prefix. The bot will recognize as command any message that begins with it.
   // i.e: "-my discord bot foo" will trigger the command "foo",
   //      whereas "My Discord Bot foo" will do nothing at all.
-  prefix:  "-myDiscordBot",
+  prefix:  "-mu",
 
   // Your bot's user token. If you don't know what that is, go here:
   // https://discordapp.com/developers/applications/me
