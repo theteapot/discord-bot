@@ -18,7 +18,7 @@ A quick step-by-step guide for setting up discord to use system audio as a recor
 $ pacmd list-sources | grep -e device.string -e 'name:'
 e.g. alsa_output.pci-0000_00_1b.0.analog-stereo.monitor
 ```
-N.B. Every 'source' has a monitor, choose the monitor rather than the source.
+  N.B. Every 'source' has a monitor, choose the monitor rather than the source.
 
 2. Add the monitor to your `/etc/asound.conf` or `~/.asoundrc` files by adding the following (using `alsa_output.pci-0000_00_1b.0.analog-stereo.monitor` as an example):
 ```conf
